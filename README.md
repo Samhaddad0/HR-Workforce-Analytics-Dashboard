@@ -9,6 +9,7 @@
 -The goal was to build a fully automated Power BI dashboard that HR can use to monitor workforce availability, optimize office capacity planning, and explore cost saving oppertunites.
 
 📊 Dataset Description
+
 | Field         | Description                                           |
 | ------------- | ----------------------------------------------------- |
 | Employee Code | Unique ID for each employee (anonymized)              |
@@ -42,6 +43,7 @@ Primary Objectives:
 
 
 🧰 Tools & Technologies Used
+
 | Category      | Tools                                  |
 | ------------- | -------------------------------------- |
 | Data Source   | Excel                                  |
@@ -49,7 +51,39 @@ Primary Objectives:
 | Data Modeling | DAX (Measures & Calculated Columns)    |
 | Dashboarding  | Power BI Desktop                       |
 | Automation    | SharePoint / Power BI Service (future) |
-| Domain        | HR Analytics                           |
+
+
+🔄 Methodology & Workflow
+
+This project followed an end-to-end analytics lifecycle commonly used in real business environments:
+
+1. Requirement Gathering
+
+Discussed HR pain points with stakeholders
+
+Defined key objectives: presence tracking, WFH analysis, sick leave monitoring, and operational cost optimization
+
+2. Data Extraction & Loading
+
+Imported raw Excel attendance data into Power BI
+
+Used Power Query to prepare and structure the dataset
+
+3. Data Transformation (ETL)
+
+Unpivoted wide-format data into row-level records
+
+Cleaned null values and standardized column formats
+
+Created derived fields (Month, Day of Week, Category Codes)
+
+Used DAX to calculate key metrics such as Presence %, WFH %, Sick Leave %, and Employee Performance
+
+4. Dashboard Development
+
+Designed interactive visuals with slicers, KPIs, table views, and trend charts
+
+Prioritized stakeholder-friendly layout (top-left KPIs, drill-down views, trend analysis)
 
 
 
