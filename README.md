@@ -59,31 +59,31 @@ This project followed an end-to-end analytics lifecycle commonly used in real bu
 
 1. Requirement Gathering
 
-Discussed HR pain points with stakeholders
+-Discussed HR pain points with stakeholders
 
-Defined key objectives: presence tracking, WFH analysis, sick leave monitoring, and operational cost optimization
+-Defined key objectives: presence tracking, WFH analysis, sick leave monitoring, and operational cost optimization
 
 2. Data Extraction & Loading
 
-Imported raw Excel attendance data into Power BI
+-Imported raw Excel attendance data into Power BI
 
-Used Power Query to prepare and structure the dataset
+-Used Power Query to prepare and structure the dataset
 
 3. Data Transformation (ETL)
 
-Unpivoted wide-format data into row-level records
+-Unpivoted wide-format data into row-level records
 
-Cleaned null values and standardized column formats
+-Cleaned null values and standardized column formats
 
-Created derived fields (Month, Day of Week, Category Codes)
+-Created derived fields (Month, Day of Week, Category Codes)
 
-Used DAX to calculate key metrics such as Presence %, WFH %, Sick Leave %, and Employee Performance
+-Used DAX to calculate key metrics such as Presence %, WFH %, Sick Leave %, and Employee Performance
 
 4. Dashboard Development
 
-Designed interactive visuals with slicers, KPIs, table views, and trend charts
+-Designed interactive visuals with slicers, KPIs, table views, and trend charts
 
-Prioritized stakeholder-friendly layout (top-left KPIs, drill-down views, trend analysis)
+-Prioritized stakeholder-friendly layout (top-left KPIs, drill-down views, trend analysis)
 
 
 
