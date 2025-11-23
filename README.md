@@ -86,6 +86,18 @@ This project followed an end-to-end analytics lifecycle commonly used in real bu
 -Prioritized stakeholder-friendly layout (top-left KPIs, drill-down views, trend analysis)
 
 
+📌 Key Findings & Insights
+
+| Insight                                    | Business Impact                            |
+| ------------------------------------------ | ------------------------------------------ |
+| Thursday & Friday have highest WFH %       | Ideal for maintenance / hybrid planning    |
+| Presence % declines as June approaches     | Possible seasonal trend / workload fatigue |
+| Sick Leave % slightly rises in summer      | Could require wellness initiatives         |
+| Monday has highest presence rate           | Best day for team meetings & onboarding    |
+| Some employees show 100% WFH / 0% presence | Could indicate resignation or long leave   |
+
+
+
 
 
 
