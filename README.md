@@ -6,6 +6,7 @@
 📁 Project Overview
 
 -This project simulates a real HR analytics use case where employee attendance data across multiple months is analyzed to uncover work-from-home patterns, sick leave trends, presence rates, and weekly seasonality.
+
 -The goal was to build a fully automated Power BI dashboard that HR can use to monitor workforce availability, optimize office capacity planning, and explore cost saving oppertunites.
 
 📊 Dataset Description
@@ -34,8 +35,11 @@
 Primary Objectives:
 
 -What is the overall presence % by month and employee?
+
 -What are the work-from-home trends? Are certain days preferred?
+
 -Can we detect early signs of health issues or COVID spikes through sick leave patterns?
+
 -Which day of the week has the lowest presence?
 
 
@@ -57,44 +61,62 @@ This project followed an end-to-end analytics lifecycle commonly used in real bu
 1. Requirement Gathering
 
 -Discussed HR pain points with stakeholders.
+
 -Defined key objectives: presence tracking, WFH analysis, sick leave monitoring, and operational cost optimization.
 
 2. Data Extraction & Loading
 
 -Imported raw Excel attendance data into Power BI.
+
 -Used Power Query to prepare and structure the dataset.
 
 3. Data Transformation (ETL)
 
 -Unpivoted wide-format data into row-level records.
+
 -Cleaned null values and standardized column formats.
+
 -Created derived fields (Month, Day of Week, Category Codes).
+
 -Used DAX to calculate key metrics such as Presence %, WFH %, Sick Leave %, and Employee Performance.
 
 4. Dashboard Development
 
 -Designed interactive visuals with slicers, KPIs, table views, and trend charts.
+
 -Prioritized stakeholder-friendly layout (top-left KPIs, drill-down views, trend analysis).
 
 
 📊 Key Findings & Insights
 
 -Presence percentage declined slightly from April to June.
+
 -WFH percentage increased steadily month over month.
+
 -Thursday and Friday recorded the highest WFH rates.
+
 -Several employees had over 50% WFH preference during June.
+
 -Sick leave levels remained low overall (~1–2%).
+
 -Seasonal spikes were observed during hotter months.
+
 -Half sick leave entries were used selectively, showing nuanced leave behavior.
+
 -Presence trend showed a gradual downward slope across months.
+
 -WFH trend showed a gradual upward slope.
 
 
 🎯 Recommendations
 -Enable hybrid scheduling, especially for Thursday & Friday, when WFH was highest.
+
 -Use Monday as an ideal day for team meetings and in-person activities.
+
 -Predict employee availability during festivals & seasonal drops in attendance.
+
 -Encourage employees to submit preferred WFH days in advance for capacity planning and office resource allocation.
+
 -Use attendance patterns to determine peak occupancy hours and adjust resources (desks, lunch, utilities) efficiently.
 
 
