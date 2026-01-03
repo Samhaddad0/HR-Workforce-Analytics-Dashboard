@@ -29,6 +29,8 @@
 | WO   | Weekly Off                |
 | LWP  | Leave Without Pay         |
 
+📈 Dashboard Preview:
+<img width="1208" height="674" alt="Screenshot 2026-01-03 at 1 00 46 PM" src="https://github.com/user-attachments/assets/72c893fe-7ff7-4367-be0e-0f4e14c11782" />
 
 🎯 Business Questions / Objectives
 
