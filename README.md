@@ -112,6 +112,7 @@ This project followed an end-to-end analytics lifecycle commonly used in real bu
 
 
 🎯 Recommendations
+
 -Enable hybrid scheduling, especially for Thursday & Friday, when WFH was highest.
 
 -Use Monday as an ideal day for team meetings and in-person activities.
